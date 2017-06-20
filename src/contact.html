@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+   <title>VisualxMed - where visuals empower health literacy</title>
+
+   <!-- Load CSS -->
+   <link href="lib/basscss/basscss.min.css" rel="stylesheet">
+   <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+   <!-- <link rel="stylesheet" href="lib/tachyons/css/tachyons.css"> -->
+   <link rel="stylesheet" href="lib/css/globalstyle.css">
+   <link rel="stylesheet" href="lib/css/contact.css">
+   <link rel="stylesheet" href="lib/css/search.css">
+   <link href='http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+   <link href='https://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
+   <!-- icon -->
+   <link rel="apple-touch-icon" sizes="57x57" href="icons/apple-icon-57x57.png">
+   <link rel="apple-touch-icon" sizes="60x60" href="icons/apple-icon-60x60.png">
+   <link rel="apple-touch-icon" sizes="72x72" href="icons/apple-icon-72x72.png">
+   <link rel="apple-touch-icon" sizes="76x76" href="icons/apple-icon-76x76.png">
+   <link rel="apple-touch-icon" sizes="114x114" href="icons/apple-icon-114x114.png">
+   <link rel="apple-touch-icon" sizes="120x120" href="icons/apple-icon-120x120.png">
+   <link rel="apple-touch-icon" sizes="144x144" href="icons/apple-icon-144x144.png">
+   <link rel="apple-touch-icon" sizes="152x152" href="icons/apple-icon-152x152.png">
+   <link rel="apple-touch-icon" sizes="180x180" href="icons/apple-icon-180x180.png">
+   <link rel="icon" type="image/png" sizes="192x192"  href="icons/android-icon-192x192.png">
+   <link rel="icon" type="image/png" sizes="32x32" href="icons/favicon-32x32.png">
+   <link rel="icon" type="image/png" sizes="96x96" href="icons/favicon-96x96.png">
+   <link rel="icon" type="image/png" sizes="16x16" href="icons/favicon-16x16.png">
+   <link rel="manifest" href="icons/manifest.json">
+   <meta name="msapplication-TileColor" content="#ffffff">
+   <meta name="msapplication-TileImage" content="icons/ms-icon-144x144.png">
+   <meta name="theme-color" content="#ffffff">
+   <!-- Load JS -->
+   <script src="lib/jquery/jquery-2.1.4.js"></script>
+   <script src="lib/js/modernizr.custom.js"></script>
+   <script src="lib/js/search.js"></script>
+   <script src="lib/js/classie.js"></script>
+</head>
+
+<body>
+<header class="hide-on-search">
+   <div class="container-fluid">
+      <div class="clearfix">
+         <div class="row">
+            <div class="header mb2">
+               <button id="trigger-overlay" type="button" class="regtext navbutton search col-xs-1 col-sm-1 col-md-1 col-lg-1 align-middle">
+                  <img src="lib/glyphicons_free/glyphicons/png/glyphicons-28-search.png" />
+                  Search</button>
+               <img class="logo col-xs-offset-1 col-sm-offset-1 col-md-offset-1 col-lg-offset-1 col-xs-1 col-sm-1 col-md-1 col-lg-1 align-middle" src="lib/images/logo.png" />
+               <h1 class="slogan align-bottom center col-xs-1 col-sm-1 col-md-1 col-lg-1 inline-block mxn1">where visuals empower health literacy</h1>
+            </div>
+            <nav class="center nav-hover">
+               <a href="index.php" class="btn navbutton p0 py3 mxn1 col-xs-offset-3 col-sm-offset-3 col-md-offset-3 col-lg-offset-3 col-xs-1 col-sm-1 col-md-1 col-lg-1">Home</a>
+               <a href="about.html" class="btn navbutton p0 py3 mxn1 col-xs-1 col-sm-1 col-md-1 col-lg-1">About</a>
+               <a href="mission.html" class="btn navbutton p0 mxn1 col-xs-1 col-sm-1 col-md-1 col-lg-1">Mission</a>
+               <a href="#" class="btn navbutton p0 mxn1 col-xs-1 col-sm-1 col-md-1 col-lg-1">Opportunities</a>
+               <a href="#" class="btn navbutton p0 mxn1 col-xs-1 col-sm-1 col-md-1 col-lg-1 active">Contact Us</a>
+            </nav>
+         </div>
+      </div>
+   </div>
+</header>
+<main>
+   <section class="container px2 py2">
+      <h3 class="mb3 regular center title">
+         CONTACT US
+      </h3>
+      <p class="contacttext">
+         We'd love to hear from you! Shoot out any questions, comments, or suggestions our way. We'll do our best to respond within
+         24 hours.
+      </p>
+
+      <form action="contact-form-handler.php" id="contact-form" name="contact_form" method="post">
+      <div class="clearfix">
+      <div class="row">
+         <div class="col-xs-7 col-sm-7 col-md-7 col-lg-7"> 
+            <input type="text" name="name" id="name" placeholder="Your Name" tabindex="1" class="textinput" required/>
+            <input type="email" name="email" id="email" placeholder="Your e-mail address" tabindex="2" class="textinput" required />
+            <textarea name="msg" id="msg" tabindex="3" placeholder="What Would You Like to Say To Us" 
+                     class="msginput" required></textarea> <br />
+            <input type="text" name="hear" id="hear" placeholder="How did you hear about us?" tabindex="4" class="textinput" required />
+         </div>
+         <div class="col-xs-5 col-sm-5 col-md-5 col-lg-5"> 
+            <section id="contact-class"> 
+               <h3> Why Are You Contacting Us? </h3>
+               <select id="reason" name="reason" tabindex="6" class="selmenu">
+                  <option value="bug">Website Bug</option>
+                  <option value="advice">I Need Advice</option>
+                  <option value="suggestion">Suggestion To Us</option>
+                  <option value="support">General Support</option>
+               </select>
+            </section>
+            <section id="priority">
+               <h3>Priority:</h3>
+               <span class="radiobadge">
+                  <input type="radio" id="low" name="priority" value="low">
+                  <label for="low">Low</label>
+               </span>
+               <span class="radiobadge">
+                  <input type="radio" id="med" name="priority" value="med" checked="checked">
+                  <label for="med">Medium</label>
+               </span>
+               <span class="radiobadge">
+                  <input type="radio" id="high" name="priority" value="high">
+                  <label for="high">High</label>
+               </span>
+            </section>
+         </div>
+      </div>
+      <section id="buttons">
+         <input type="reset" name="reset" id="resetbtn" class="resetbtn" value="Reset">
+         <input type="submit" name="submit" id="submitbtn" class="submitbtn" tabindex="7" value="Send!">
+         <br style="clear:both;">
+      </section>
+      </div> 
+      </form>
+   </section>
+</main>
+<footer>
+   <div class="container px2 py2">
+      <div class="clearfix">
+         <ul class="list-reset h3 center">
+            <li class="inline-block"><a href="index.php" class="btn">Home</a></li>
+            <li class="inline-block"><a href="about.html" class="btn">About Us</a></li>
+            <li class="inline-block"><a href="mission.html" class="btn">Mission</a></li>
+            <li class="inline-block"><a href="#" class="btn">Opportunities</a></li>
+            <li class="inline-block"><a href="contact.html" class="btn active">Contact Us</a></li>
+         </ul>
+      </div>
+   </div>
+<div class="overlay overlay-contentscale hover-effect">
+      <button type="button" class="overlay-close">Close</button>
+      <div class="icon"></div>
+      <h1 class="title"> Click On Magnifying Glass To Discover </h1>
+      <input id="search" class="search-input" 
+         placeholder="Type here to search...">
+      <h4 id="results-text"> Showing results for: <b id="search-string"></b> </h4>
+      <ul id="results"> </ul>
+</div>
+</footer>
+</body>
+</html>
+<script src="lib/js/searchoverlay.js"></script>
+<script src="lib/js/resize.js"></script>

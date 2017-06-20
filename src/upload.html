@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+   <title>VisualxMed - where visuals empower health literacy</title>
+
+   <!-- Load CSS -->
+   <link href="lib/basscss/basscss.min.css" rel="stylesheet">
+   <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+   <!-- <link rel="stylesheet" href="lib/tachyons/css/tachyons.css"> -->
+   <link rel="stylesheet" href="lib/css/globalstyle.css">
+   <link rel="stylesheet" href="lib/css/search.css">
+   <link href='http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+   <link href='https://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
+   <!-- Load JS -->
+   <script src="lib/jquery/jquery-2.1.4.js"></script>
+   <script src="lib/js/modernizr.custom.js"></script>
+   <script src="lib/js/search.js"></script>
+   <script src="lib/js/classie.js"></script>
+</head>
+
+<body>
+<header class="hide-on-search">
+   <div class="container-fluid">
+      <div class="clearfix">
+         <div class="row">
+            <div class="header mb2">
+               <button id="trigger-overlay" type="button" class="regtext navbutton search col-xs-1 col-sm-1 col-md-1 col-lg-1 align-middle">
+                  <img src="lib/glyphicons_free/glyphicons/png/glyphicons-28-search.png" />
+                  Search</button>
+               <img class="logo col-xs-offset-1 col-sm-offset-1 col-md-offset-1 col-lg-offset-1 col-xs-1 col-sm-1 col-md-1 col-lg-1 align-middle" src="lib/images/logo.png" />
+               <h1 class="slogan align-bottom center col-xs-1 col-sm-1 col-md-1 col-lg-1 inline-block mxn1">where visuals empower health literacy</h1>
+            </div>
+            <nav class="center nav-hover">
+               <a href="index.php" class="btn navbutton p0 py3 mxn1 col-xs-offset-3 col-sm-offset-3 col-md-offset-3 col-lg-offset-3 col-xs-1 col-sm-1 col-md-1 col-lg-1">Home</a>
+               <a href="about.html" class="btn navbutton p0 py3 mxn1 col-xs-1 col-sm-1 col-md-1 col-lg-1">About</a>
+               <a href="mission.html" class="btn navbutton p0 mxn1 col-xs-1 col-sm-1 col-md-1 col-lg-1">Mission</a>
+               <a href="#" class="btn navbutton p0 mxn1 col-xs-1 col-sm-1 col-md-1 col-lg-1">Opportunities</a>
+               <a href="contact.html" class="btn navbutton p0 mxn1 col-xs-1 col-sm-1 col-md-1 col-lg-1">Contact Us</a>
+            </nav>
+         </div>
+      </div>
+   </div>
+</header>
+<main>
+   <section class="container px2 py2">
+      <h3 class="mb3 regular center title">
+         UPLOAD INFOGRAPHIC
+      </h3>
+      <p class="contacttext">
+         Please fill out all fields.
+      </p>
+
+      <form action="upload.php" name="upload_form" method="post" enctype="multipart/form-data">
+         <fieldset>
+            <label for="name"> Name* (lowercase preferred) </label>
+            <input type="text" name="name" id="name" size="35" required />
+         </fieldset>
+         <fieldset>
+            <label for="title"> Title* </label>
+            <input type="text" name="title" id="title" size="80" required />
+         </fieldset>
+         <label for="msg">Description of Infographic (Content Creator, Designer)*</label> <br />
+         <textarea name="msg" id="msg" rows="6" cols="90" required></textarea> <br />
+         <fieldset>
+            <label for="infograph">Select Image to Upload*</label> 
+            <input type="file" name="infograph" id="infograph" required/> 
+         </fieldset>
+         <fieldset>
+            <label for="pass">Administrator Password*</label>
+            <input type="password" name="pass" id="pass" required/> 
+         </fieldset>
+         <p class="req"> *required </p>
+         <input type="submit" value="Send">
+      </form>
+   </section>
+</main>
+<footer>
+   <div class="container px2 py2">
+      <div class="clearfix">
+         <ul class="list-reset h3 center">
+            <li class="inline-block"><a href="index.php" class="btn">Home</a></li>
+            <li class="inline-block"><a href="about.html" class="btn">About Us</a></li>
+            <li class="inline-block"><a href="mission.html" class="btn">Mission</a></li>
+            <li class="inline-block"><a href="#" class="btn">Opportunities</a></li>
+            <li class="inline-block"><a href="contact.html" class="btn">Contact Us</a></li>
+         </ul>
+      </div>
+   </div>
+<div class="overlay overlay-contentscale hover-effect">
+      <button type="button" class="overlay-close">Close</button>
+      <div class="icon"></div>
+      <h1 class="title"> Click On Magnifying Glass To Discover </h1>
+      <input id="search" class="search-input" 
+         placeholder="Type here to search...">
+      <h4 id="results-text"> Showing results for: <b id="search-string"></b> </h4>
+      <ul id="results"> </ul>
+</div>
+</footer>
+</body>
+</html>
+<script src="lib/js/searchoverlay.js"></script>
+<script src="lib/js/resize.js"></script>

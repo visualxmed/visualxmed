@@ -1,0 +1,34 @@
+.othermem {
+	width: 55%;
+}
+
+.max-width {
+  width: 100%;
+}
+
+.nametag {
+	font-family: Lato;
+	font-size: 14pt;
+  line-height: 1.25;
+  margin-top: 0.2em;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+.personinfo {
+  font-family: Lato;
+  font-size: 11pt;
+  margin-top: 0;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+.endpersoninfo {
+	margin-bottom: 1em;
+}
+
+#scriptinsert {
+	line-height: 1.0;
+	position: relative;
+	width: 100%;
+}

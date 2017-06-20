@@ -1,0 +1,218 @@
+ .container-limit {
+   width: 100%;
+   height: 30vw;
+ }
+
+ .infographic-holder {
+  background-color: white;
+ }
+
+ .thumbnaili {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  border: 10px solid rgba(248,248,248,0.9);
+}
+
+.thumbnaili img {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  height: 100%;
+  width: auto;
+  -webkit-transform: translate(-50%,-50%);
+      -ms-transform: translate(-50%,-50%);
+          transform: translate(-50%,-50%);
+}
+
+.thumbnaili img.portrait {
+  width: 100%;
+  height: auto;
+}
+
+.picitem {
+   float: left;
+   position: relative;
+   font-family: Lato;
+}
+
+.picitem > a, 
+.picitem > a img {
+   display: block;
+   width: 100%;
+   height: 100%;
+}
+
+.picitem > a {
+   position relative;
+}
+
+.picitem > a span {
+   position: absolute;
+   width: 100%;
+   height: 100%;
+   text-align: center;
+   color: white;
+   text-shadow: 0px 1px 1px rgba(255,255,255,0.6);
+   font-size: 24px;
+   opacity: 0;
+   background: rgba(170, 134, 58, 0.5);
+   transition: opacity 0.3s linear;
+}
+
+.picitem > a span p.title-info{
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+  background-color: rgba(170,170,170,0.7);
+}
+
+.picitem > a span p.title-info {
+  font-family: Oswald;
+  font-size: 50px;
+}
+
+.picitem > a span p.date {
+  font-family: Arial;
+  font-size: 18px;
+}
+
+.picitem > a:hover span {
+   opacity: 1;
+}
+
+.overlay-info{
+   width: 0px;
+   height: 0px;
+   position: fixed;
+   overflow: hidden;
+   left: 0px;
+   top: 0px;
+   padding: 0px;
+   z-index: 99;
+   text-align: center;
+   background: rgba(40, 48, 24, 0.6);
+}
+
+.overlay-info > div{
+   position: relative;
+   color: #f0eceb;
+   width: 950px;
+   margin: 40px auto 0px auto;
+   text-shadow: 0px 1px 1px rgba(255,255,255,0.6);
+   line-height: 50px;
+   text-align: center;
+}
+
+.overlay-info div h3,
+.overlay-info div p{
+   padding: 0px 20px;
+   width: 400px;
+}
+.overlay-info div h3{
+   font-size: 26px;
+   float: left;
+   text-align: right;
+   border-right: 1px solid rgba(27,54,81,0.4);
+}
+.overlay-info div h3 span,
+.overlay-info div p{
+   font-size: 16px;
+   font-family: Lato, serif;
+   font-style: italic;
+}
+.overlay-info div h3 span{
+   display: inline-block;
+   vertical-align: middle;
+   line-height: normal;    
+   text-align: center;
+}
+.overlay-info div p{
+   font-size: 20px;
+   text-align: left;
+   float: left;
+   width: 460px;
+}
+
+.overlay-info a.close{
+   background: #283018;
+   z-index: 1001;
+   color: #fff;
+   position: absolute;
+   top: 43px;
+   left: 50%;
+   font-size: 15px;
+   line-height: 26px;
+   text-align: center;
+   width: 60px;
+   height: 23px;
+   overflow: hidden;
+   margin-left: -25px;
+   opacity: 0;
+   box-shadow: 0px 1px 2px rgba(0,0,0,0.3);
+}
+
+.overlay-info img{
+   margin: auto;
+   max-width: 800px;
+   height: auto;
+   position: relative;
+   opacity: 0;
+   box-shadow: 0px 2px 7px rgba(0,0,0,0.2);
+   transition: opacity 0.5s linear;
+}
+
+
+.prev:hover, .next:hover{
+   opacity: 1;
+}
+.prev{
+   top: 50%;
+   left: 15%;
+}
+.next{
+   top: 50%;
+   right: 15%;
+}
+
+.overlay-info:target {
+   width: 100%;
+   height: auto;
+   bottom: 0px;
+   right: 0px;
+   padding: 80px 100px 120px 100px;
+   overflow: auto;
+}
+
+.overlay-info:target .prev,
+.overlay-info:target .next {
+  position: fixed;
+}
+
+.overlay-info:target img,
+.overlay-info:target a.close{
+   opacity: 1;
+}
+
+.overlay-info:target img {
+   animation: fadeInScale 1.2s ease-in-out;
+}
+@keyframes fadeInScale {
+  0% { transform: scale(0.6); opacity: 0; }
+  100% { transform: scale(1); opacity: 1; }
+}
+
+.col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9 {
+  padding: 0;
+}
+
+#loader-icon {
+  position: fixed;
+  top: 50%;
+  width:100%;
+  height:100%;
+  text-align:center;
+  display: none;
+}
