@@ -93,7 +93,7 @@
                             <a class="navbar-brand" href="#">
                             <img src="lib/images/logo.png" width="75" height="39" alt="">
                             </a>
-                        <div class="collapse navbar-collapse" id="myNavbar">
+                        <!--<div class="collapse navbar-collapse" id="myNavbar">-->
                         <ul class="nav navbar-nav">
                             <a href="index.php" class="btn navbutton active">Home</a>
                             <a href="about.html" class="btn navbutton">About</a>
@@ -107,7 +107,7 @@
                             <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
                         </ul>-->
                         </div>
-                    </div>
+                    <!--</div>-->
             </nav>
          </div>
       </div>
