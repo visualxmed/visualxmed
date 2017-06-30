@@ -81,7 +81,7 @@
                   Search</button>
                <h1 class="slogan align-bottom center col-xs-1 col-sm-1 col-md-1 col-lg-1 inline-block mxn1">where visuals empower health literacy</h1>
             </div>-->
-            <nav class="navbar navbar-toggleable-md navbar-light" style="background-color: #0EA29C">
+            <nav class="navbar navbar-fixed-top navbar-collapse navbar-toggleable-md navbar-light" style="background-color: #0EA29C">
                 <a class="navbar-brand" href="#">
                 <img src="lib/images/logo.png" width="75" height="39" alt="">
                 </a>
