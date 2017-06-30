@@ -85,7 +85,7 @@
             <nav class="navbar navbar-fixed-top navbar-inverse" style="background-color: #F3F3F3">
                      <div class="container-fluid">
                         <div class="navbar-header">
-                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar" style="background-color: #55ADFF">
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>                        
@@ -93,7 +93,7 @@
                             <a class="navbar-brand" href="#">
                             <img src="lib/images/logo.png" width="75" height="39" alt="">
                             </a>
-                        <!--<div class="collapse navbar-collapse" id="myNavbar">-->
+                        <div class="collapse navbar-collapse" id="myNavbar">
                         <ul class="nav navbar-nav">
                             <a href="index.php" class="btn navbutton active">Home</a>
                             <a href="about.html" class="btn navbutton">About</a>
@@ -107,7 +107,7 @@
                             <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
                         </ul>-->
                         </div>
-                    <!--</div>-->
+                    </div>
             </nav>
          </div>
       </div>
