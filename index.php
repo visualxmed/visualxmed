@@ -81,7 +81,7 @@
                   Search</button>
                <h1 class="slogan align-bottom center col-xs-1 col-sm-1 col-md-1 col-lg-1 inline-block mxn1">where visuals empower health literacy</h1>
             </div>-->
-            <nav class="navbar navbar-fixed-top navbar-collapse navbar-toggleable-md navbar-light" style="background-color: #F3F3F3">
+            <nav class="navbar navbar-fixed-top" style="background-color: #F3F3F3">
                      <div class="container-fluid">
                         <div class="navbar-header">
                         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
