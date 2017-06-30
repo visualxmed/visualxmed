@@ -93,10 +93,10 @@
                             <a class="navbar-brand" href="#">
                             <img src="lib/images/logo.png" width="75" height="39" alt="">
                             </a>
-                            </div>
+                        </div>
                         <div class="collapse navbar-collapse" id="myNavbar">
                         <ul class="nav navbar-nav">
-                            <li class="active"><a href="index.php" class="btn navbutton active">Home</a></li>
+                            <li><a href="index.php" class="btn navbutton active">Home</a></li>
                             <li><a href="about.html" class="btn navbutton">About</a></li>
                             <li><a href="mission.html" class="btn navbutton">Mission</a></li>
                             <li><a href="#" class="btn navbutton">Opportunities</a></li>
