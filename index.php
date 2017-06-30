@@ -82,7 +82,7 @@
                   Search</button>
                <h1 class="slogan align-bottom center col-xs-1 col-sm-1 col-md-1 col-lg-1 inline-block mxn1">where visuals empower health literacy</h1>
             </div>-->
-            <nav class="navbar" style="background-color: #F3F3F3">
+            <nav class="navbar navbar-fixed-top" style="background-color: #F3F3F3">
                      <div class="container-fluid">
                         <div class="navbar-header">
                         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -93,7 +93,6 @@
                             <a class="navbar-brand" href="#">
                             <img src="lib/images/logo.png" width="75" height="39" alt="">
                             </a>
-                        </div>
                         <div class="collapse navbar-collapse" id="myNavbar">
                         <ul class="nav navbar-nav">
                             <a href="index.php" class="btn navbutton active">Home</a>
@@ -102,6 +101,7 @@
                             <a href="#" class="btn navbutton">Opportunities</a>
                             <a href="contact.html" class="btn navbutton">Contact Us</a>
                         </ul>
+                        </div>
                         <!--<ul class="nav navbar-nav navbar-right">
                             <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
                             <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
