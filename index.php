@@ -3,11 +3,11 @@
 <head>
    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-   <title>VisualxMed - where visuals empower health literacy</title>
+   <title>VisualxMed - Where visuals empower health literacy!</title>
 
    <!-- Load CSS -->
    <link href="lib/basscss/basscss.min.css" rel="stylesheet">
-   <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
    <!-- <link rel="stylesheet" href="lib/tachyons/css/tachyons.css"> -->
    <link rel="stylesheet" href="lib/css/indexstyle.css">
    <link rel="stylesheet" href="lib/css/globalstyle.css">
@@ -35,6 +35,7 @@
    <meta name="msapplication-TileImage" content="icons/ms-icon-144x144.png">
    <meta name="theme-color" content="#ffffff">
    <!-- Load JS -->
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
    <script src="lib/jquery/jquery-2.1.4.js"></script>
    <script src="lib/js/modernizr.custom.js"></script>
    <script src="lib/js/search.js"></script>
@@ -47,10 +48,10 @@
             type: "GET",
             data:  {rowcount:$("#rowcount").val()},
             beforeSend: function(){
-            $('#loader-icon').show();
+            $('#loader').show();
             },
             complete: function(){
-            $('#loader-icon').hide();
+            $('#loader').hide();
             },
             success: function(data){
             $("#infograph-result").append(data);
@@ -75,19 +76,39 @@
    <div class="container-fluid">
       <div class="clearfix">
          <div class="row">
-            <div class="header mb2">
+            <!--<div class="header mb2">
                <button id="trigger-overlay" type="button" class="regtext navbutton search col-xs-1 col-sm-1 col-md-1 col-lg-1 align-middle">
                   <img src="lib/glyphicons_free/glyphicons/png/glyphicons-28-search.png" />
                   Search</button>
-               <img class="logo col-xs-offset-1 col-sm-offset-1 col-md-offset-1 col-lg-offset-1 col-xs-1 col-sm-1 col-md-1 col-lg-1 align-middle" src="lib/images/logo.png" />
                <h1 class="slogan align-bottom center col-xs-1 col-sm-1 col-md-1 col-lg-1 inline-block mxn1">where visuals empower health literacy</h1>
-            </div>
-            <nav class="center nav-hover">
-               <a href="#" class="btn navbutton p0 py3 mxn1 col-xs-offset-3 col-sm-offset-3 col-md-offset-3 col-lg-offset-3 col-xs-1 col-sm-1 col-md-1 col-lg-1 active">Home</a>
-               <a href="about.html" class="btn navbutton p0 py3 mxn1 col-xs-1 col-sm-1 col-md-1 col-lg-1">About</a>
-               <a href="mission.html" class="btn navbutton p0 mxn1 col-xs-1 col-sm-1 col-md-1 col-lg-1">Mission</a>
-               <a href="#" class="btn navbutton p0 mxn1 col-xs-1 col-sm-1 col-md-1 col-lg-1">Opportunities</a>
-               <a href="contact.html" class="btn navbutton p0 mxn1 col-xs-1 col-sm-1 col-md-1 col-lg-1">Contact Us</a>
+            </div>-->
+            <nav class="navbar navbar-fixed-top navbar-inverse" style="background-color: #F3F3F3">
+                     <div class="container-fluid">
+                        <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar" style="background-color: #55ADFF">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>                        
+                        </button>
+                            <a class="navbar-brand" href="#">
+                            <img src="lib/images/logo.png" width="75" height="39" alt="">
+                            </a>
+                        </div>
+                        <div class="collapse navbar-collapse" id="myNavbar">
+                        <ul class="nav navbar-nav">
+                            <li><a href="index.php" class="btn navbutton active">Home</a></li>
+                            <li><a href="about.html" class="btn navbutton">About</a></li>
+                            <li><a href="mission.html" class="btn navbutton">Mission</a></li>
+                            <li><a href="#" class="btn navbutton">Opportunities</a></li>
+                            <li><a href="contact.html" class="btn navbutton">Contact Us</a></li>
+                        </ul>
+                        </div>
+                        <!--<ul class="nav navbar-nav navbar-right">
+                            <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+                            <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+                        </ul>-->
+                        </div>
+                    </div>
             </nav>
          </div>
       </div>
@@ -98,7 +119,8 @@
       <div id="infograph-result">
          <?php include('getresult.php'); ?>
       </div>
-      <div id="loader-icon"><img src="lib/images/LoaderIcon.gif" /><div>
+      <div class="loader"></div>
+      <!--<div id="loader-icon"><img src="lib/images/LoaderIcon.gif" /><div>-->
     </section>
 </main>
 <footer>
