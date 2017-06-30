@@ -79,14 +79,12 @@
                <button id="trigger-overlay" type="button" class="regtext navbutton search col-xs-1 col-sm-1 col-md-1 col-lg-1 align-middle">
                   <img src="lib/glyphicons_free/glyphicons/png/glyphicons-28-search.png" />
                   Search</button>
-                    <nav class="navbar navbar-light bg-faded">
-                        <a class="navbar-brand" href="#">
-                        <img src="lib/images/logo.png" width="75" height="39" alt="">
-                        </a>
-                    </nav>
                <h1 class="slogan align-bottom center col-xs-1 col-sm-1 col-md-1 col-lg-1 inline-block mxn1">where visuals empower health literacy</h1>
             </div>
-            <nav class="center nav-hover">
+            <nav class="navbar navbar-toggleable-md navbar-light" style="background-color: #0EA29C">
+                <a class="navbar-brand" href="#">
+                <img src="lib/images/logo.png" width="75" height="39" alt="">
+                </a>
                <a href="index.php" class="btn navbutton p0 py3 mxn1 col-xs-offset-3 col-sm-offset-3 col-md-offset-3 col-lg-offset-3 col-xs-1 col-sm-1 col-md-1 col-lg-1 active">Home</a>
                <a href="about.html" class="btn navbutton p0 py3 mxn1 col-xs-1 col-sm-1 col-md-1 col-lg-1">About</a>
                <a href="mission.html" class="btn navbutton p0 mxn1 col-xs-1 col-sm-1 col-md-1 col-lg-1">Mission</a>
