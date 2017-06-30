@@ -47,10 +47,10 @@
             type: "GET",
             data:  {rowcount:$("#rowcount").val()},
             beforeSend: function(){
-            $('#loader-icon').show();
+            $('#loader').show();
             },
             complete: function(){
-            $('#loader-icon').hide();
+            $('#loader').hide();
             },
             success: function(data){
             $("#infograph-result").append(data);
@@ -98,7 +98,8 @@
       <div id="infograph-result">
          <?php include('getresult.php'); ?>
       </div>
-      <div id="loader-icon"><img src="lib/images/LoaderIcon.gif" /><div>
+      <div class="loader"></div>
+      <!--<div id="loader-icon"><img src="lib/images/LoaderIcon.gif" /><div>-->
     </section>
 </main>
 <footer>
