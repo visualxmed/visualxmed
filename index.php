@@ -7,7 +7,7 @@
 
    <!-- Load CSS -->
    <link href="lib/basscss/basscss.min.css" rel="stylesheet">
-   <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
    <!-- <link rel="stylesheet" href="lib/tachyons/css/tachyons.css"> -->
    <link rel="stylesheet" href="lib/css/indexstyle.css">
    <link rel="stylesheet" href="lib/css/globalstyle.css">
@@ -35,6 +35,7 @@
    <meta name="msapplication-TileImage" content="icons/ms-icon-144x144.png">
    <meta name="theme-color" content="#ffffff">
    <!-- Load JS -->
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
    <script src="lib/jquery/jquery-2.1.4.js"></script>
    <script src="lib/js/modernizr.custom.js"></script>
    <script src="lib/js/search.js"></script>
