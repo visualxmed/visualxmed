@@ -3,7 +3,7 @@
 <head>
    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-   <title>VisualxMed - where visuals empower health literacy</title>
+   <title>VisualxMed - Where visuals empower health literacy!</title>
 
    <!-- Load CSS -->
    <link href="lib/basscss/basscss.min.css" rel="stylesheet">
