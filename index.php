@@ -93,13 +93,14 @@
                             <a class="navbar-brand" href="#">
                             <img src="lib/images/logo.png" width="75" height="39" alt="">
                             </a>
+                            </div>
                         <div class="collapse navbar-collapse" id="myNavbar">
                         <ul class="nav navbar-nav">
-                            <a href="index.php" class="btn navbutton active">Home</a>
-                            <a href="about.html" class="btn navbutton">About</a>
-                            <a href="mission.html" class="btn navbutton">Mission</a>
-                            <a href="#" class="btn navbutton">Opportunities</a>
-                            <a href="contact.html" class="btn navbutton">Contact Us</a>
+                            <li class="active"><a href="index.php" class="btn navbutton active">Home</a></li>
+                            <li><a href="about.html" class="btn navbutton">About</a></li>
+                            <li><a href="mission.html" class="btn navbutton">Mission</a></li>
+                            <li><a href="#" class="btn navbutton">Opportunities</a></li>
+                            <li><a href="contact.html" class="btn navbutton">Contact Us</a></li>
                         </ul>
                         </div>
                         <!--<ul class="nav navbar-nav navbar-right">
