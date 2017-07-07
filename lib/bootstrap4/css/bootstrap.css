@@ -2710,7 +2710,7 @@ fieldset[disabled] a.btn {
 .btn-secondary {
   color: #00cc99;
   background-color: #55ADFF;
-  /*border-color: #ccc;*/
+  border-color: #ccc;
 }
 
 .btn-secondary:hover {

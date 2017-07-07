@@ -1,9 +1,8 @@
-/*#right { 
-    float: right;
-    color: #55ADFF;
+#right { 
+    padding-left: 200 px;
     text-align: right;
     font-size: 200%;
-    }*/
+    }
 /*
 .btn-secondary {
     background-color: #55ADFF;
