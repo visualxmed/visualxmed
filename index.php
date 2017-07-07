@@ -74,6 +74,7 @@
 </head>
 
 <body>
+    <div class="container-fluid">
     <nav class="navbar navbar-light fixed-top">
         <div class="d-flex p-2">
             <a class="navbar-brand" href="index.php">
@@ -81,7 +82,7 @@
             </a>
             <nav 
             <div class="d-flex flex-row-reverse" role="group">
-                    <a href="index.php" class="p-2 btn btn-primary" role="button">Home</a>
+                        <a href="index.php" class="p-2 btn btn-primary" role="button">Home</a>
                         <a href="about.html" class="p-2 btn btn-secondary" role="button">About Us</a>
                         <a href="mission.html" class="p-2 btn btn-secondary" role="button">Mission</a>
                         <a href="#" class="p-2 btn btn-secondary" role="button">Opportunities</a>
@@ -89,6 +90,7 @@
             </div>
         </div>
     </nav>
+    </div>
 <!--
 <header class="hide-on-search">
    <div class="container-fluid">
