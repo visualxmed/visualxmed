@@ -74,6 +74,7 @@
 </head>
 
 <body>
+    <header class="top-screen">
     <nav class="navbar navbar-light fixed-top">
     <div class="container-fluid">
         <div class="d-flex p-2">
@@ -93,7 +94,7 @@
         </div>
     </div>
     </nav>
-
+</header>
 <!--
 <header class="hide-on-search">
    <div class="container-fluid">
