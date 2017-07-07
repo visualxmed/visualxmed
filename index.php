@@ -84,6 +84,7 @@
             <a href="contact.html" class="btn" role="button">Contact Us</a>
         </div>
     </div>
+
 <header class="hide-on-search">
    <div class="container-fluid">
       <div class="clearfix">
@@ -94,7 +95,7 @@
                   Search</button>
                <h1 class="slogan align-bottom center col-xs-1 col-sm-1 col-md-1 col-lg-1 inline-block mxn1">where visuals empower health literacy</h1>
             </div>-->
-            <nav class="navbar navbar-fixed-top navbar-inverse" style="background-color: #F3F3F3">
+            <!--<nav class="navbar navbar-fixed-top navbar-inverse" style="background-color: #F3F3F3">
                      <div class="container-fluid">
                         <div class="navbar-header">
                         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar" style="background-color: #55ADFF">
@@ -121,7 +122,7 @@
                         </ul>-->
                         </div>
                     </div>
-            </nav>
+            </nav>-->
          </div>
       </div>
    </div>
