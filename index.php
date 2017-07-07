@@ -79,12 +79,25 @@
             <a class="navbar-brand" href="index.php">
                 <img src="lib/images/logo.png" width="75" height="39" alt="">
             </a>
+            <nav 
             <div class="btn-group btn-group-lg" role="group">
-                <a href="index.php" class="btn btn-primary float-right" role="button">Home</a>
-                <a href="about.html" class="btn btn-secondary float-right" role="button">About Us</a>
-                <a href="mission.html" class="btn btn-secondary float-right" role="button">Mission</a>
-                <a href="#" class="btn btn-secondary float-right" role="button">Opportunities</a>
-                <a href="contact.html" class="btn btn-secondary float-right" role="button">Contact Us</a>
+                <ul class="nav justify-content-right">
+                   <li class="nav-item">    
+                    <a href="index.php" class="btn btn-primary float-right" role="button">Home</a>
+                    </li>
+                    <li class="nav-item">    
+                        <a href="about.html" class="btn btn-secondary float-right" role="button">About Us</a>
+                    </li>
+                    <li class="nav-item">    
+                        <a href="mission.html" class="btn btn-secondary float-right" role="button">Mission</a>
+                    </li>
+                    <li class="nav-item">    
+                        <a href="#" class="btn btn-secondary float-right" role="button">Opportunities</a>
+                    </li>
+                    <li class="nav-item">    
+                        <a href="contact.html" class="btn btn-secondary float-right" role="button">Contact Us</a>
+                   </li>
+            </ul>
             </div>
         </div>
     </nav>
