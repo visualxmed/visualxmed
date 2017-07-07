@@ -81,12 +81,14 @@
                 <img src="lib/images/logo.png" width="75" height="39" alt="">
             </a>
             <nav 
+            <div style="float:right;">
             <div class="d-flex justify-content-end">
                         <a href="index.php"><div class="ml-auto p-2 btn btn-primary" role="button">Home</div></a>
                         <a href="about.html"><div class="ml-auto p-2 btn btn-secondary" role="button">About Us</div></a>
                         <a href="mission.html"><div class="ml-auto p-2 btn btn-secondary" role="button">Mission</div></a>
                         <a href="#"><div class="ml-auto p-2 btn btn-secondary" role="button">Opportunities</div></a>
                         <a href="contact.html"><div class="ml-auto p-2 btn btn-secondary" role="button">Contact Us</div></a>
+            </div>
             </div>
         </div>
     </div>
