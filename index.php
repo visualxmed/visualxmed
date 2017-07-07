@@ -80,7 +80,7 @@
                 <img src="lib/images/logo.png" width="75" height="39" alt="">
             </a>
             <nav 
-            <div class="btn-group btn-group-lg d-flex flex-row-reverse" role="group">
+            <div class="d-flex flex-row-reverse" role="group">
                 <ul class="nav justify-content-right">
                    <li class="nav-item">    
                     <a href="index.php" class="btn btn-primary float-right" role="button">Home</a>
@@ -97,7 +97,7 @@
                     <li class="nav-item">    
                         <a href="contact.html" class="btn btn-secondary float-right" role="button">Contact Us</a>
                    </li>
-            </ul>
+              </ul>
             </div>
         </div>
     </nav>
