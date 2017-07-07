@@ -8,9 +8,6 @@
    <!-- Load CSS -->
    <link href="style.css" rel="stylesheet" type="text/css">
     <link href="lib/basscss/basscss.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
    <!-- <link rel="stylesheet" href="lib/tachyons/css/tachyons.css"> -->
     <link rel="stylesheet" href="lib/css/indexstyle.css">
     <link rel="stylesheet" href="lib/css/globalstyle.css">
