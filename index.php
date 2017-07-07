@@ -84,11 +84,11 @@
             <nav 
             <div id="right">
             <div class="d-flex navbar-right justify-content-end">
-                        <a href="index.php"><div class="ml-auto p-2 btn btn-primary" role="button">Home</div></a>
-                        <a href="about.html"><div class="ml-auto p-2 btn btn-secondary" id="rbtn" role="button">About Us</div></a>
-                        <a href="mission.html"><div class="ml-auto p-2 btn btn-secondary" id="rbtn" role="button">Mission</div></a>
-                        <a href="#"><div class="ml-auto p-2 btn btn-secondary" id="rbtn" role="button">Opportunities</div></a>
-                        <a href="contact.html"><div class="ml-auto p-2 btn btn-secondary" id="rbtn" role="button">Contact Us</div></a>
+                        <a href="index.php"><div class="btn-primary p-2 btn" role="button">Home</div></a>
+                        <a href="about.html"><div class="p-2 btn btn-secondary" id="rbtn" role="button">About Us</div></a>
+                        <a href="mission.html"><div class="p-2 btn btn-secondary" id="rbtn" role="button">Mission</div></a>
+                        <a href="#"><div class="p-2 btn btn-secondary" id="rbtn" role="button">Opportunities</div></a>
+                        <a href="contact.html"><div class="p-2 btn btn-secondary" id="rbtn" role="button">Contact Us</div></a>
             </div>
             </div>
         </div>
