@@ -81,23 +81,11 @@
             </a>
             <nav 
             <div class="d-flex flex-row-reverse" role="group">
-                <ul class="nav justify-content-right">
-                   <li class="nav-item">    
                     <a href="index.php" class="p-2 btn btn-primary float-right" role="button">Home</a>
-                    </li>
-                    <li class="nav-item">    
                         <a href="about.html" class="p-2 btn btn-secondary float-right" role="button">About Us</a>
-                    </li>
-                    <li class="nav-item">    
                         <a href="mission.html" class="p-2 btn btn-secondary float-right" role="button">Mission</a>
-                    </li>
-                    <li class="nav-item">    
                         <a href="#" class="p-2 btn btn-secondary float-right" role="button">Opportunities</a>
-                    </li>
-                    <li class="nav-item">    
                         <a href="contact.html" class="p-2 btn btn-secondary float-right" role="button">Contact Us</a>
-                   </li>
-              </ul>
             </div>
         </div>
     </nav>
