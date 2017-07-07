@@ -8,6 +8,8 @@
    <!-- Load CSS -->
    <link href="style.css" rel="stylesheet" type="text/css">
     <link href="lib/basscss/basscss.min.css" rel="stylesheet">
+    <link href="lib/bootstrap4/css/bootstrap.min.css" rel="stylesheet">
+
    <!-- <link rel="stylesheet" href="lib/tachyons/css/tachyons.css"> -->
     <link rel="stylesheet" href="lib/css/indexstyle.css">
     <link rel="stylesheet" href="lib/css/globalstyle.css">
