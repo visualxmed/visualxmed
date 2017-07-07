@@ -82,7 +82,7 @@
                 <img src="lib/images/logo.png" width="75" height="39" alt="">
             </a>
             <nav 
-            <div id="right" style="float:right;">
+            <div id="right">
             <div class="d-flex navbar-right justify-content-end">
                         <a href="index.php"><div class="ml-auto p-2 btn btn-primary" role="button">Home</div></a>
                         <a href="about.html"><div class="ml-auto p-2 btn btn-secondary" role="button">About Us</div></a>
