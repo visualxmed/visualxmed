@@ -83,7 +83,7 @@
             <nav 
             <div id="right">
             <div class="d-flex navbar-right justify-content-end">
-                        <a href="index.php"><div class="ml-auto p-2 btn btn-primary" id="rbtn" role="button">Home</div></a>
+                        <a href="index.php"><div class="ml-auto p-2 btn btn-primary" role="button">Home</div></a>
                         <a href="about.html"><div class="ml-auto p-2 btn btn-secondary" id="rbtn" role="button">About Us</div></a>
                         <a href="mission.html"><div class="ml-auto p-2 btn btn-secondary" id="rbtn" role="button">Mission</div></a>
                         <a href="#"><div class="ml-auto p-2 btn btn-secondary" id="rbtn" role="button">Opportunities</div></a>
