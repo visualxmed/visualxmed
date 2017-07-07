@@ -74,8 +74,8 @@
 </head>
 
 <body>
-    <div class="container-fluid">
     <nav class="navbar navbar-light fixed-top">
+    <div class="container-fluid">
         <div class="d-flex p-2">
             <a class="navbar-brand" href="index.php">
                 <img src="lib/images/logo.png" width="75" height="39" alt="">
@@ -89,8 +89,9 @@
                         <a href="contact.html"><div class="ml-auto p-2 btn btn-secondary" role="button">Contact Us</div></a>
             </div>
         </div>
-    </nav>
     </div>
+    </nav>
+
 <!--
 <header class="hide-on-search">
    <div class="container-fluid">
