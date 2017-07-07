@@ -1,7 +1,11 @@
 * {
   border-radius: 0 !important;
 }
+#homebtn {
+    color: #99ccff;
+    background-color: #006600;
 
+}
 #right { 
     margin-right: 200 px;
     text-align: right;
@@ -13,7 +17,7 @@
 
 }*/
 #rbtn{
-  color: #F3F3F3;
+  color: #00cc99;
   background-color: #55ADFF;
   /*border-color: #ccc;*/
 }

@@ -84,7 +84,7 @@
             <nav 
             <div id="right">
             <div class="d-flex navbar-right justify-content-end">
-                        <a href="index.php"><div class="btn-primary p-2 btn" role="button">Home</div></a>
+                        <a href="index.php"><div class="btn-primary p-2 btn" id="homebtn" role="button">Home</div></a>
                         <a href="about.html"><div class="p-2 btn btn-secondary" id="rbtn" role="button">About Us</div></a>
                         <a href="mission.html"><div class="p-2 btn btn-secondary" id="rbtn" role="button">Mission</div></a>
                         <a href="#"><div class="p-2 btn btn-secondary" id="rbtn" role="button">Opportunities</div></a>
