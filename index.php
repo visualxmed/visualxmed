@@ -159,7 +159,7 @@
       </div>
    </div>
 </footer>-->
-    <!--<div class="overlay overlay-contentscale hover-effect">
+    <div class="overlay overlay-contentscale hover-effect">
       <button type="button" class="overlay-close">Close</button>
       <div class="icon"></div>
       <h1 class="title"> Click On Magnifying Glass To Discover </h1>
@@ -167,7 +167,7 @@
          placeholder="Type here to search...">
       <h4 id="results-text"> Showing results for: <b id="search-string"></b> </h4>
       <ul id="results"> </ul>
-   </div>-->
+   </div>
 <script>
    var bodyElem = document.getElementsByTagName("body")[0];
    function hashChanged(storedHash) {
