@@ -75,14 +75,18 @@
 
 <body>
     <div class="container-fluid">
-        <img src="lib/images/logo.png" width="75" height="39" alt="">
-        <div class="btn-group" data-toggle="buttons">
-            <a href="index.php" class="btn btn-primary-active" role="button">Home</a>
-            <a href="about.html" class="btn" role="button">About Us</a>
-            <a href="mission.html" class="btn" role="button">Mission</a>
-            <a href="#" class="btn" role="button">Opportunities</a>
-            <a href="contact.html" class="btn" role="button">Contact Us</a>
-        </div>
+        <nav class="navbar navbar-light fixed-top">
+            <a class="navbar-brand" href="index.php">
+                <img src="lib/images/logo.png" width="75" height="39" alt="">
+            </a>
+            <div class="btn-group" data-toggle="buttons">
+                <a href="index.php" class="btn btn-primary-active" role="button">Home</a>
+                <a href="about.html" class="btn" role="button">About Us</a>
+                <a href="mission.html" class="btn" role="button">Mission</a>
+                <a href="#" class="btn" role="button">Opportunities</a>
+                <a href="contact.html" class="btn" role="button">Contact Us</a>
+            </div>
+        </nav>
     </div>
 <!--
 <header class="hide-on-search">
