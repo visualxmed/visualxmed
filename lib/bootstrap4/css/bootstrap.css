@@ -2678,8 +2678,8 @@ fieldset[disabled] a.btn {
 }
 
 .btn-primary {
-  color: #fff;
-  background-color: #0275d8;
+  color: #99ccff;
+  background-color: #006600;
   border-color: #0275d8;
 }
 
@@ -2708,7 +2708,7 @@ fieldset[disabled] a.btn {
 }
 
 .btn-secondary {
-  color: #F3F3F3;
+  color: #00cc99;
   background-color: #55ADFF;
   border-color: #ccc;
 }
