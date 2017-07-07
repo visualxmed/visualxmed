@@ -84,11 +84,11 @@
             <a href="contact.html" class="btn" role="button">Contact Us</a>
         </div>
     </div>
-
+<!--
 <header class="hide-on-search">
    <div class="container-fluid">
       <div class="clearfix">
-         <div class="row">
+         <div class="row">-->
             <!--<div class="header mb2">
                <button id="trigger-overlay" type="button" class="regtext navbutton search col-xs-1 col-sm-1 col-md-1 col-lg-1 align-middle">
                   <img src="lib/glyphicons_free/glyphicons/png/glyphicons-28-search.png" />
@@ -120,13 +120,13 @@
                             <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
                             <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
                         </ul>-->
-                        </div>
+                        <!--</div>
                     </div>
             </nav>-->
-         </div>
+         <!--</div>
       </div>
-   </div>
-</header>
+   </div>-->
+<!--</header>-->
 <main>
    <section class="container-fluid infographic-holder">
       <div id="infograph-result">
@@ -149,7 +149,7 @@
       </div>
    </div>
 </footer>-->
-    <div class="overlay overlay-contentscale hover-effect">
+    <!--<div class="overlay overlay-contentscale hover-effect">
       <button type="button" class="overlay-close">Close</button>
       <div class="icon"></div>
       <h1 class="title"> Click On Magnifying Glass To Discover </h1>
@@ -157,7 +157,7 @@
          placeholder="Type here to search...">
       <h4 id="results-text"> Showing results for: <b id="search-string"></b> </h4>
       <ul id="results"> </ul>
-   </div>
+   </div>-->
 <script>
    var bodyElem = document.getElementsByTagName("body")[0];
    function hashChanged(storedHash) {
