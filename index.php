@@ -74,8 +74,8 @@
 </head>
 
 <body>
-    <div class="container-fluid">
-        <nav class="navbar navbar-light fixed-top">
+    <nav class="navbar navbar-light fixed-top">
+        <div class="container-fluid">
             <a class="navbar-brand" href="index.php">
                 <img src="lib/images/logo.png" width="75" height="39" alt="">
             </a>
@@ -86,8 +86,8 @@
                 <a href="#" class="btn" role="button">Opportunities</a>
                 <a href="contact.html" class="btn" role="button">Contact Us</a>
             </div>
-        </nav>
-    </div>
+        </div>
+    </nav>
 <!--
 <header class="hide-on-search">
    <div class="container-fluid">
