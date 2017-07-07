@@ -6,15 +6,17 @@
    <title>VisualxMed - Where visuals empower health literacy!</title>
 
    <!-- Load CSS -->
-   <link href="lib/basscss/basscss.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="lib/basscss/basscss.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
    <!-- <link rel="stylesheet" href="lib/tachyons/css/tachyons.css"> -->
-   <link rel="stylesheet" href="lib/css/indexstyle.css">
-   <link rel="stylesheet" href="lib/css/globalstyle.css">
-   <link rel="stylesheet" href="lib/css/search.css">
-   <link href='http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
-   <link href='https://fonts.googleapis.com/css?family=Oswald:400,300' rel='stylesheet' type='text/css'>
-   <link href='http://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="lib/css/indexstyle.css">
+    <link rel="stylesheet" href="lib/css/globalstyle.css">
+    <link rel="stylesheet" href="lib/css/search.css">
+    <link href='http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Oswald:400,300' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
    <link href='https://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
    <!-- icon -->
    <link rel="apple-touch-icon" sizes="57x57" href="icons/apple-icon-57x57.png">
@@ -72,6 +74,16 @@
 </head>
 
 <body>
+    <div class="container-fluid">
+        <img src="lib/images/logo.png" width="75" height="39" alt="">
+        <div class="btn-group" data-toggle="buttons">
+            <a href="index.php" class="btn btn-primary-active" role="button">Home</a>
+            <a href="about.html" class="btn" role="button">About Us</a>
+            <a href="mission.html" class="btn" role="button">Mission</a>
+            <a href="#" class="btn" role="button">Opportunities</a>
+            <a href="contact.html" class="btn" role="button">Contact Us</a>
+        </div>
+    </div>
 <header class="hide-on-search">
    <div class="container-fluid">
       <div class="clearfix">
@@ -123,7 +135,7 @@
       <!--<div id="loader-icon"><img src="lib/images/LoaderIcon.gif" /><div>-->
     </section>
 </main>
-<footer>
+<!--<footer>
    <div class="container px2 py2">
       <div class="clearfix">
          <ul class="list-reset h3 center">
@@ -135,7 +147,7 @@
          </ul>
       </div>
    </div>
-</footer>
+</footer>-->
     <div class="overlay overlay-contentscale hover-effect">
       <button type="button" class="overlay-close">Close</button>
       <div class="icon"></div>
