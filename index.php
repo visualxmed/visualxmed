@@ -6,6 +6,7 @@
    <title>VisualxMed - Where visuals empower health literacy!</title>
 
    <!-- Load CSS -->
+   <link href="style.css" rel="stylesheet" typ="text/css" />
     <link href="lib/basscss/basscss.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
@@ -81,7 +82,7 @@
                 <img src="lib/images/logo.png" width="75" height="39" alt="">
             </a>
             <nav 
-            <div style="float:right;">
+            <div id="right" style="float:right;">
             <div class="d-flex justify-content-end">
                         <a href="index.php"><div class="ml-auto p-2 btn btn-primary" role="button">Home</div></a>
                         <a href="about.html"><div class="ml-auto p-2 btn btn-secondary" role="button">About Us</div></a>
