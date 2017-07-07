@@ -1,1 +1,6 @@
-#right { float:right;}
+#right { 
+    float: right;
+    color: #55ADFF;
+    text-align: right;
+    font-size: 200%;
+    }
