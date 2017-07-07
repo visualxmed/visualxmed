@@ -82,11 +82,11 @@
             </a>
             <nav 
             <div class="d-flex flex-row justify-content-end">
-                        <a href="index.php"><div class="p-2 btn btn-primary" role="button">Home</div></a>
-                        <a href="about.html"><div class="p-2 btn btn-secondary" role="button">About Us</div></a>
-                        <a href="mission.html"><div class="p-2 btn btn-secondary" role="button">Mission</div></a>
-                        <a href="#"><div class="p-2 btn btn-secondary" role="button">Opportunities</div></a>
-                        <a href="contact.html"><div class="p-2 btn btn-secondary" role="button">Contact Us</div></a>
+                        <a href="index.php"><div class="mr-auto p-2 btn btn-primary" role="button">Home</div></a>
+                        <a href="about.html"><div class="mr-auto p-2 btn btn-secondary" role="button">About Us</div></a>
+                        <a href="mission.html"><div class="mr-auto p-2 btn btn-secondary" role="button">Mission</div></a>
+                        <a href="#"><div class="mr-auto p-2 btn btn-secondary" role="button">Opportunities</div></a>
+                        <a href="contact.html"><div class="mr-auto p-2 btn btn-secondary" role="button">Contact Us</div></a>
             </div>
         </div>
     </nav>
