@@ -76,7 +76,7 @@
 <body>
     <!--<header class="top-screen">-->
     <nav class="navbar navbar-light fixed-top">
-    <div class="container-fluid">
+    <div class="container-fluid bg-primary">
         <div class="d-flex p-2">
             <a class="navbar-brand" href="index.php">
                 <img src="lib/images/logo.png" width="75" height="39" alt="">
