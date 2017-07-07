@@ -2640,17 +2640,17 @@ select.form-control-lg:not([size]):not([multiple]), .input-group-lg > select.for
   text-align: center;
   white-space: nowrap;
   vertical-align: middle;
-  -webkit-user-select: none;
-     -moz-user-select: none;
-      -ms-user-select: none;
-          user-select: none;
-  border: none;
+  padding: 14px 24px;
+  border: 0 none;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
   padding: 1rem 1rem;
   font-size: 1rem;
-  border-radius: 0.25rem;
-  -webkit-transition: all 0.2s ease-in-out;
+  border-radius: 0;
+  /*-webkit-transition: all 0.2s ease-in-out;
   -o-transition: all 0.2s ease-in-out;
-  transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;*/
 }
 
 .btn:focus, .btn:hover {
