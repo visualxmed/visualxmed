@@ -6,15 +6,17 @@
    <title>VisualxMed - Where visuals empower health literacy!</title>
 
    <!-- Load CSS -->
-   <link href="lib/basscss/basscss.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+   <link href="style.css" rel="stylesheet" type="text/css">
+    <link href="lib/basscss/basscss.min.css" rel="stylesheet">
+    <link href="lib/bootstrap4/css/bootstrap.min.css" rel="stylesheet">
+
    <!-- <link rel="stylesheet" href="lib/tachyons/css/tachyons.css"> -->
-   <link rel="stylesheet" href="lib/css/indexstyle.css">
-   <link rel="stylesheet" href="lib/css/globalstyle.css">
-   <link rel="stylesheet" href="lib/css/search.css">
-   <link href='http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
-   <link href='https://fonts.googleapis.com/css?family=Oswald:400,300' rel='stylesheet' type='text/css'>
-   <link href='http://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="lib/css/indexstyle.css">
+    <link rel="stylesheet" href="lib/css/globalstyle.css">
+    <link rel="stylesheet" href="lib/css/search.css">
+    <link href='http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Oswald:400,300' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
    <link href='https://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
    <!-- icon -->
    <link rel="apple-touch-icon" sizes="57x57" href="icons/apple-icon-57x57.png">
@@ -35,7 +37,7 @@
    <meta name="msapplication-TileImage" content="icons/ms-icon-144x144.png">
    <meta name="theme-color" content="#ffffff">
    <!-- Load JS -->
-   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
    <script src="lib/jquery/jquery-2.1.4.js"></script>
    <script src="lib/js/modernizr.custom.js"></script>
    <script src="lib/js/search.js"></script>
@@ -72,17 +74,38 @@
 </head>
 
 <body>
+    <nav class="navbar navbar-light fixed-top">
+    <div class="container-fluid">
+        <div class="d-flex p-2">
+            <a class="navbar-brand" href="index.php">
+                <img src="lib/images/logo.png" width="75" height="39" alt="">
+            </a>
+            <nav 
+            <div id="right">
+            <div class="d-flex navbar-right justify-content-end">
+                        <a href="index.php"><div class="ml-auto p-2 btn btn-primary" role="button">Home</div></a>
+                        <a href="about.html"><div class="ml-auto p-2 btn btn-secondary" id="rbtn" role="button">About Us</div></a>
+                        <a href="mission.html"><div class="ml-auto p-2 btn btn-secondary" id="rbtn" role="button">Mission</div></a>
+                        <a href="#"><div class="ml-auto p-2 btn btn-secondary" id="rbtn" role="button">Opportunities</div></a>
+                        <a href="contact.html"><div class="ml-auto p-2 btn btn-secondary" id="rbtn" role="button">Contact Us</div></a>
+            </div>
+            </div>
+        </div>
+    </div>
+    </nav>
+
+<!--
 <header class="hide-on-search">
    <div class="container-fluid">
       <div class="clearfix">
-         <div class="row">
+         <div class="row">-->
             <!--<div class="header mb2">
                <button id="trigger-overlay" type="button" class="regtext navbutton search col-xs-1 col-sm-1 col-md-1 col-lg-1 align-middle">
                   <img src="lib/glyphicons_free/glyphicons/png/glyphicons-28-search.png" />
                   Search</button>
                <h1 class="slogan align-bottom center col-xs-1 col-sm-1 col-md-1 col-lg-1 inline-block mxn1">where visuals empower health literacy</h1>
             </div>-->
-            <nav class="navbar navbar-fixed-top navbar-inverse" style="background-color: #F3F3F3">
+            <!--<nav class="navbar navbar-fixed-top navbar-inverse" style="background-color: #F3F3F3">
                      <div class="container-fluid">
                         <div class="navbar-header">
                         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar" style="background-color: #55ADFF">
@@ -107,13 +130,13 @@
                             <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
                             <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
                         </ul>-->
-                        </div>
+                        <!--</div>
                     </div>
-            </nav>
-         </div>
+            </nav>-->
+         <!--</div>
       </div>
-   </div>
-</header>
+   </div>-->
+<!--</header>-->
 <main>
    <section class="container-fluid infographic-holder">
       <div id="infograph-result">
@@ -123,7 +146,7 @@
       <!--<div id="loader-icon"><img src="lib/images/LoaderIcon.gif" /><div>-->
     </section>
 </main>
-<footer>
+<!--<footer>
    <div class="container px2 py2">
       <div class="clearfix">
          <ul class="list-reset h3 center">
@@ -135,8 +158,8 @@
          </ul>
       </div>
    </div>
-</footer>
-    <div class="overlay overlay-contentscale hover-effect">
+</footer>-->
+    <!--<div class="overlay overlay-contentscale hover-effect">
       <button type="button" class="overlay-close">Close</button>
       <div class="icon"></div>
       <h1 class="title"> Click On Magnifying Glass To Discover </h1>
@@ -144,7 +167,7 @@
          placeholder="Type here to search...">
       <h4 id="results-text"> Showing results for: <b id="search-string"></b> </h4>
       <ul id="results"> </ul>
-   </div>
+   </div>-->
 <script>
    var bodyElem = document.getElementsByTagName("body")[0];
    function hashChanged(storedHash) {
