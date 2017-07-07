@@ -79,12 +79,12 @@
             <a class="navbar-brand" href="index.php">
                 <img src="lib/images/logo.png" width="75" height="39" alt="">
             </a>
-            <div class="btn-group btn-group-lg float-right" role="group">
-                <a href="index.php" class="btn btn-primary-active" role="button">Home</a>
-                <a href="about.html" class="btn btn-secondary" role="button">About Us</a>
-                <a href="mission.html" class="btn btn-secondary" role="button">Mission</a>
-                <a href="#" class="btn btn-secondary" role="button">Opportunities</a>
-                <a href="contact.html" class="btn btn-secondary" role="button">Contact Us</a>
+            <div class="btn-group btn-group-lg" role="group">
+                <a href="index.php" class="btn btn-primary float-right" role="button">Home</a>
+                <a href="about.html" class="btn btn-secondary float-right" role="button">About Us</a>
+                <a href="mission.html" class="btn btn-secondary float-right" role="button">Mission</a>
+                <a href="#" class="btn btn-secondary float-right" role="button">Opportunities</a>
+                <a href="contact.html" class="btn btn-secondary float-right" role="button">Contact Us</a>
             </div>
         </div>
     </nav>
