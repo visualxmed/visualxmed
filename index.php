@@ -76,22 +76,22 @@
 <body>
     <!--<header class="top-screen">-->
     <nav class="navbar navbar-light fixed-top">
-    <div class="container-fluid bg-primary">
-        <div class="d-flex p-2">
+    <div class="container-fluid">
+        <!-- <div class="d-flex > -->
             <a class="navbar-brand" href="index.php">
                 <img src="lib/images/logo.png" width="75" height="39" alt="">
             </a>
             <nav 
             <div id="right">
             <div class="d-flex navbar-right justify-content-end">
-                        <a href="index.php"><div class="btn-primary p-2 btn" id="homebtn" role="button">Home</div></a>
-                        <a href="about.html"><div class="p-2 btn btn-secondary" id="rbtn" role="button">About Us</div></a>
-                        <a href="mission.html"><div class="p-2 btn btn-secondary" id="rbtn" role="button">Mission</div></a>
-                        <a href="#"><div class="p-2 btn btn-secondary" id="rbtn" role="button">Opportunities</div></a>
-                        <a href="contact.html"><div class="p-2 btn btn-secondary" id="rbtn" role="button">Contact Us</div></a>
+                        <a href="index.php"><div class="btn-primary btn" id="homebtn" role="button">Home</div></a>
+                        <a href="about.html"><div class="btn btn-secondary" id="rbtn" role="button">About Us</div></a>
+                        <a href="mission.html"><div class="btn btn-secondary" id="rbtn" role="button">Mission</div></a>
+                        <a href="#"><div class="btn btn-secondary" id="rbtn" role="button">Opportunities</div></a>
+                        <a href="contact.html"><div class="btn btn-secondary" id="rbtn" role="button">Contact Us</div></a>
             </div>
-            </div>
-        </div>
+             </div> 
+        <!-- </div> -->
     </div>
     </nav>
 <!--</header>-->
