@@ -86,7 +86,7 @@
                 <a class="navbar-brand" href="index.php">
                     <img src="lib/images/logo.png" width="75" height="39" alt="">
                 </a>
-                <h1 class="slogan inline-block">Where visuals empower health literacy</h1>
+                <h1 class="inline-block">Where visuals empower health literacy</h1>
             </div>
 
             <div class="col col-md-9">
