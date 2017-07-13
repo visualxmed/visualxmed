@@ -93,7 +93,7 @@
                   <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                      <span class="navbar-toggler-icon"></span>
                  </button>
-                <div class="col col-md-9 collapse navbar-collapse top-bar" id="navbarNav">
+                <div class="col col-md-9 collapse navbar-collapse" id="navbarNav">
                   <ul class="navbar-nav">
                       <li class="nav-item active navbutton">
                         <a class="nav-link" href="index.php">Home<span class="sr-only"></span></a>
