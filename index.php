@@ -75,7 +75,7 @@
 
 <body>
     <!--<header class="top-screen">-->
-    <nav class="navbar navbar-light fixed-top">
+    <!-- <nav class="navbar navbar-light fixed-top"> -->
     <div class="container">
         <div class="row">
             <div class="column">
