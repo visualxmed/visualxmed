@@ -85,12 +85,9 @@
                 <img src="lib/images/logo.png" width="75" height="39" alt="">
             </a>
             </div>
-           
-            <div class="col-6">
-            </div>
 
             <div class="col col-md-8" id="right">
-              <div class="d-flex justify-content-end">
+              <div>
                         <a href="index.php"><div class="btn-primary btn" id="homebtn" role="button">Home</div></a>
                         <a href="about.html"><div class="btn btn-secondary" id="rbtn" role="button">About Us</div></a>
                         <a href="mission.html"><div class="btn btn-secondary" id="rbtn" role="button">Mission</div></a>
