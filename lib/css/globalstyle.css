@@ -55,6 +55,10 @@ nav {
   color: #729f98;
 }
 
+.navbutton:active {
+  color: #729f98;
+}
+
 .nav-hover a {
     padding: 0 0 10px;
 }
