@@ -2,6 +2,10 @@
   border-radius: 0 !important;
 }
 
+#index {
+  color: #729f98;
+}
+
 .title {
    color: black;
    font-family: Lato;
