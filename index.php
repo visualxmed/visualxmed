@@ -95,7 +95,7 @@
                 </div>
                 <div class="collapse navbar-collapse" id="navbarNav">
                   <ul class="navbar-nav">
-                      <li class="nav-item active">
+                      <li class="nav-item">
                         <a class="nav-link navbutton active" href="index.php">Home<span class="sr-only"></span></a>
                       </li>
                       <li class="nav-item">  
