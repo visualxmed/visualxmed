@@ -81,14 +81,14 @@
     <nav>
     <div class="container top-bar">
         <div class="row">
-            <div class="col">
+            <div class="col col-md-3">
         <!-- <div class="d-flex > -->
             <a class="navbar-brand" href="index.php">
                 <img src="lib/images/logo.png" width="75" height="39" alt="">
             </a>
             </div>
 
-            <div class="col col-md-8">
+            <div class="col col-md-9">
                         <a href="index.php"><div class="btn-primary btn navbutton" role="button">Home</div></a>
                         <a href="about.html"><div class="btn btn-secondary navbutton" role="button">About Us</div></a>
                         <a href="mission.html"><div class="btn btn-secondary navbutton" role="button">Mission</div></a>
