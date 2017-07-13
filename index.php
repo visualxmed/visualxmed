@@ -95,19 +95,19 @@
                  </button>
                 <div class="col col-md-9 collapse navbar-collapse" id="navbarNav">
                   <ul class="navbar-nav">
-                      <li class="nav-item active">
+                      <li class="nav-item active navbutton">
                         <a class="nav-link" href="index.php">Home<span class="sr-only"></span></a>
                       </li>
-                      <li class="nav-item">  
+                      <li class="nav-item navbutton">  
                           <a class ="nav-link" href="about.html">About Us</a>
                      </li>
-                     <li class="nav-item">                        
+                     <li class="nav-item navbutton">                        
                         <a class="nav-link" href="mission.html">Mission</a>
                       </li>
-                      <li class="nav-item">                        
+                      <li class="nav-item navbutton">                        
                         <a class="nav-link" href="#">Opportunities</a>
                       </li>
-                      <li class="nav-item">                        
+                      <li class="nav-item navbutton">                        
                         <a class="nav-link" href="contact.html">Contact Us</a>
                       </li>
                     </ul>
