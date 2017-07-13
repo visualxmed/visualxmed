@@ -89,11 +89,11 @@
             </div>
 
             <div class="col col-md-8">
-                        <a href="index.php"><div class="btn-primary btn" role="button">Home</div></a>
-                        <a href="about.html"><div class="btn btn-secondary" role="button">About Us</div></a>
-                        <a href="mission.html"><div class="btn btn-secondary" role="button">Mission</div></a>
-                        <a href="#"><div class="btn btn-secondary" role="button">Opportunities</div></a>
-                        <a href="contact.html"><div class="btn btn-secondary" role="button">Contact Us</div></a>
+                        <a href="index.php"><div class="btn-primary btn navbutton" role="button">Home</div></a>
+                        <a href="about.html"><div class="btn btn-secondary navbutton" role="button">About Us</div></a>
+                        <a href="mission.html"><div class="btn btn-secondary navbutton" role="button">Mission</div></a>
+                        <a href="#"><div class="btn btn-secondary navbutton" role="button">Opportunities</div></a>
+                        <a href="contact.html"><div class="btn btn-secondary navbutton" role="button">Contact Us</div></a>
                 </div>
              </div> 
         </div>
