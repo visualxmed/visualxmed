@@ -93,21 +93,21 @@
                   <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                      <span class="navbar-toggler-icon"></span>
                  </button>
-                <div class="col col-md-9 collapse navbar-collapse" id="navbarNav">
+                <div class="collapse navbar-collapse" id="navbarNav">
                   <ul class="navbar-nav">
-                      <li class="nav-item active navbutton">
+                      <li class="nav-item active">
                         <a class="nav-link" href="index.php">Home<span class="sr-only"></span></a>
                       </li>
-                      <li class="nav-item navbutton">  
+                      <li class="nav-item">  
                           <a class ="nav-link" href="about.html">About Us</a>
                      </li>
-                     <li class="nav-item navbutton">                        
+                     <li class="nav-item">                        
                         <a class="nav-link" href="mission.html">Mission</a>
                       </li>
-                      <li class="nav-item navbutton">                        
+                      <li class="nav-item">                        
                         <a class="nav-link" href="#">Opportunities</a>
                       </li>
-                      <li class="nav-item navbutton">                        
+                      <li class="nav-item">                        
                         <a class="nav-link" href="contact.html">Contact Us</a>
                       </li>
                     </ul>
@@ -127,7 +127,7 @@
       <div class="clearfix">
          <div class="row">-->
             <!--<div class="header mb2">
-               <button id="trigger-overlay" type="button" class="regtext navbutton search col-xs-1 col-sm-1 col-md-1 col-lg-1 align-middle">
+               <button id="trigger-overlay" type="button" class="regtext search col-xs-1 col-sm-1 col-md-1 col-lg-1 align-middle">
                   <img src="lib/glyphicons_free/glyphicons/png/glyphicons-28-search.png" />
                   Search</button>
                <h1 class="slogan align-bottom center col-xs-1 col-sm-1 col-md-1 col-lg-1 inline-block mxn1">where visuals empower health literacy</h1>
@@ -146,11 +146,11 @@
                         </div>
                         <div class="collapse navbar-collapse" id="myNavbar">
                         <ul class="nav navbar-nav">
-                            <li><a href="index.php" class="btn navbutton active">Home</a></li>
-                            <li><a href="about.html" class="btn navbutton">About</a></li>
-                            <li><a href="mission.html" class="btn navbutton">Mission</a></li>
-                            <li><a href="#" class="btn navbutton">Opportunities</a></li>
-                            <li><a href="contact.html" class="btn navbutton">Contact Us</a></li>
+                            <li><a href="index.php" class="btn active">Home</a></li>
+                            <li><a href="about.html" class="btn">About</a></li>
+                            <li><a href="mission.html" class="btn">Mission</a></li>
+                            <li><a href="#" class="btn">Opportunities</a></li>
+                            <li><a href="contact.html" class="btn">Contact Us</a></li>
                         </ul>
                         </div>
                         <!--<ul class="nav navbar-nav navbar-right">
