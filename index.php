@@ -77,6 +77,7 @@
     <!--<header class="top-screen">-->
     <!-- <nav class="navbar navbar-light fixed-top"> -->
     <header>
+    <nav>
     <div class="container top-bar">
         <div class="row">
             <div class="col">
@@ -97,6 +98,7 @@
         </div>
         <!-- </div> -->
     </div>
+    </nav>
     </header>
     
 <!--</header>-->
