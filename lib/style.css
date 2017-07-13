@@ -1,3 +1,7 @@
+* {
+  border-radius: 0 !important;
+}
+
 .top-bar {
     font-family: Arial, Helvetica, sans-serif;
     color: white;
