@@ -89,7 +89,10 @@
                 <h1 class="inline-block slogan">Where visuals empower health literacy</h1>
             </div>
 
-            <nav class="navbar-toggleable">
+            <nav class="navbar navbar-toggleable-md">
+                  <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                     <span class="navbar-toggler-icon"></span>
+                 </button>
               <div class="col col-md-9">
                         <a href="index.php"><div class="btn active navbutton" role="button">Home</div></a>
                         <a href="about.html"><div class="btn navbutton" role="button">About Us</div></a>
