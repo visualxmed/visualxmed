@@ -86,8 +86,7 @@
             </a>
             </div>
 
-            <div class="col col-md-8" id="right">
-              <div>
+            <div class="col col-md-8">
                         <a href="index.php"><div class="btn-primary btn" role="button">Home</div></a>
                         <a href="about.html"><div class="btn btn-secondary" role="button">About Us</div></a>
                         <a href="mission.html"><div class="btn btn-secondary" role="button">Mission</div></a>

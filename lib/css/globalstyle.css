@@ -1,3 +1,7 @@
+* {
+  border-radius: 0 !important;
+}
+
 .title {
    color: black;
    font-family: Lato;
