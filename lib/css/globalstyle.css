@@ -55,7 +55,7 @@ nav {
   color: #729f98;
 }
 
-.nav-active {
+.navbutton:active {
   color: #729f98;
 }
 
