@@ -78,7 +78,7 @@
     <!--<header class="top-screen">-->
     <!-- <nav class="navbar navbar-light fixed-top"> -->
     <header>
-    <nav>
+    <!-- <nav> -->
     <div class="container top-bar">
         <div class="row">
             <div class="col col-md-3">
@@ -90,10 +90,10 @@
             </div>
 
             <nav class="navbar navbar-toggleable-md">
+                <div class="col col-md-9 collapse navbar-collapse">
                   <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                      <span class="navbar-toggler-icon"></span>
                  </button>
-              <div class="col col-md-9 collapse navbar-collapse">
                   <ul class="navbar-nav">
                       <li class="nav-item">
                         <a href="index.php"><div class="btn active navbutton" role="button">Home</div></a>
@@ -113,7 +113,7 @@
                     </ul>
                 </div>
             </nav>
-             </div> 
+            </div> 
         </div>
         <!-- </div> -->
     </div>
