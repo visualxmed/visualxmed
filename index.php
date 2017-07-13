@@ -93,12 +93,24 @@
                   <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                      <span class="navbar-toggler-icon"></span>
                  </button>
-              <div class="col col-md-9">
+              <div class="col col-md-9 collapse navbar-collapse">
+                  <ul class="navbar-nav">
+                      <li class="nav-item">
                         <a href="index.php"><div class="btn active navbutton" role="button">Home</div></a>
-                        <a href="about.html"><div class="btn navbutton" role="button">About Us</div></a>
+                      </li>
+                      <li class="nav-item">  
+                          <a href="about.html"><div class="btn navbutton" role="button">About Us</div></a>
+                     </li>
+                     <li class="nav-item">                        
                         <a href="mission.html"><div class="btn navbutton" role="button">Mission</div></a>
+                      </li>
+                      <li class="nav-item">                        
                         <a href="#"><div class="btn navbutton" role="button">Opportunities</div></a>
+                      </li>
+                      <li class="nav-item">                        
                         <a href="contact.html"><div class="btn navbutton" role="button">Contact Us</div></a>
+                      </li>
+                    </ul>
                 </div>
             </nav>
              </div> 
