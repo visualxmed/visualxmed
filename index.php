@@ -19,7 +19,7 @@
     <link href='http://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
    <link href='https://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
    <!-- icon -->
-   <link rel="apple-touch-icon" sizes="57x57" href="icons/apple-icon-57x57.png">
+   <!-- <link rel="apple-touch-icon" sizes="57x57" href="icons/apple-icon-57x57.png">
    <link rel="apple-touch-icon" sizes="60x60" href="icons/apple-icon-60x60.png">
    <link rel="apple-touch-icon" sizes="72x72" href="icons/apple-icon-72x72.png">
    <link rel="apple-touch-icon" sizes="76x76" href="icons/apple-icon-76x76.png">
@@ -35,7 +35,7 @@
    <link rel="manifest" href="icons/manifest.json">
    <meta name="msapplication-TileColor" content="#ffffff">
    <meta name="msapplication-TileImage" content="icons/ms-icon-144x144.png">
-   <meta name="theme-color" content="#ffffff">
+   <meta name="theme-color" content="#ffffff"> -->
    <!-- Load JS -->
     <script src="js/bootstrap.min.js"></script>
    <script src="lib/jquery/jquery-2.1.4.js"></script>
@@ -73,9 +73,10 @@
    </script>
 </head>
 
-<body>
+<!-- <body> -->
     <!--<header class="top-screen">-->
     <!-- <nav class="navbar navbar-light fixed-top"> -->
+    <header>
     <div class="container top-bar">
         <div class="row">
             <div class="col">
@@ -100,7 +101,7 @@
         </div>
         <!-- </div> -->
     </div>
-
+    </header>
     
 <!--</header>-->
 <!--
