@@ -77,13 +77,16 @@
     <!--<header class="top-screen">-->
     <nav class="navbar navbar-light fixed-top">
     <div class="container-fluid">
+        <div class="row">
+            <div class="column">
         <!-- <div class="d-flex > -->
             <a class="navbar-brand" href="index.php">
                 <img src="lib/images/logo.png" width="75" height="39" alt="">
             </a>
-            <nav 
-            <div id="right">
-            <div class="d-flex navbar-right justify-content-end">
+            </div>
+            <nav> 
+            <div class="column" id="right">
+            <div class="d-flex justify-content-end">
                         <a href="index.php"><div class="btn-primary btn" id="homebtn" role="button">Home</div></a>
                         <a href="about.html"><div class="btn btn-secondary" id="rbtn" role="button">About Us</div></a>
                         <a href="mission.html"><div class="btn btn-secondary" id="rbtn" role="button">Mission</div></a>
@@ -91,9 +94,11 @@
                         <a href="contact.html"><div class="btn btn-secondary" id="rbtn" role="button">Contact Us</div></a>
             </div>
              </div> 
+        </div>
         <!-- </div> -->
     </div>
     </nav>
+    
 <!--</header>-->
 <!--
 <header class="hide-on-search">
