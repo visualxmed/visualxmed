@@ -84,7 +84,7 @@
                 <img src="lib/images/logo.png" width="75" height="39" alt="">
             </a>
             </div>
-            <nav> 
+           
             <div class="column-6">
             </div>
 
@@ -100,7 +100,7 @@
         </div>
         <!-- </div> -->
     </div>
-    </nav>
+
     
 <!--</header>-->
 <!--
