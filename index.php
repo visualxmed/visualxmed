@@ -6,7 +6,7 @@
    <title>VisualxMed - Where visuals empower health literacy!</title>
 
    <!-- Load CSS -->
-   <link href="style.css" rel="stylesheet" type="text/css">
+   <link href="style.css" rel="stylesheet" rel="stylesheet">
     <link href="lib/basscss/basscss.min.css" rel="stylesheet">
     <link href="lib/bootstrap4/css/bootstrap.min.css" rel="stylesheet">
 
