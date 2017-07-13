@@ -78,17 +78,17 @@
     <!-- <nav class="navbar navbar-light fixed-top"> -->
     <div class="container top-bar">
         <div class="row">
-            <div class="column">
+            <div class="col">
         <!-- <div class="d-flex > -->
             <a class="navbar-brand" href="index.php">
                 <img src="lib/images/logo.png" width="75" height="39" alt="">
             </a>
             </div>
            
-            <div class="column-6">
+            <div class="col-6">
             </div>
 
-            <div class="column" id="right">
+            <div class="col col-md-8" id="right">
               <div class="d-flex justify-content-end">
                         <a href="index.php"><div class="btn-primary btn" id="homebtn" role="button">Home</div></a>
                         <a href="about.html"><div class="btn btn-secondary" id="rbtn" role="button">About Us</div></a>
