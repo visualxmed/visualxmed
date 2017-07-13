@@ -96,19 +96,19 @@
                 <div class="collapse navbar-collapse" id="navbarNav">
                   <ul class="navbar-nav">
                       <li class="nav-item active">
-                        <a class="nav-link" href="index.php">Home<span class="sr-only"></span></a>
+                        <a class="nav-link navbutton" href="index.php">Home<span class="sr-only"></span></a>
                       </li>
                       <li class="nav-item">  
-                          <a class ="nav-link" href="about.html">About Us</a>
+                          <a class ="nav-link navbutton" href="about.html">About Us</a>
                      </li>
                      <li class="nav-item">                        
-                        <a class="nav-link" href="mission.html">Mission</a>
+                        <a class="nav-link navbutton" href="mission.html">Mission</a>
+                      </li> 
+                      <li class="nav-item">                        
+                        <a class="nav-link navbutton" href="#">Opportunities</a>
                       </li>
                       <li class="nav-item">                        
-                        <a class="nav-link" href="#">Opportunities</a>
-                      </li>
-                      <li class="nav-item">                        
-                        <a class="nav-link" href="contact.html">Contact Us</a>
+                        <a class="nav-link navbutton" href="contact.html">Contact Us</a>
                       </li>
                     </ul>
                 </div>
