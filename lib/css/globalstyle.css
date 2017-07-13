@@ -93,7 +93,8 @@ nav {
 
 .slogan {
    font-family: Poiret One;
-   font-size: 12px;
+   font-size: 66%;
+   color: grey;
 }
 
 @media (max-width: 40em) {

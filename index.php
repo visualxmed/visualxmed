@@ -83,10 +83,10 @@
         <div class="row">
             <div class="col col-md-3">
         <!-- <div class="d-flex > -->
-            <a class="navbar-brand" href="index.php">
-                <img src="lib/images/logo.png" width="75" height="39" alt="">
-            </a>
-            <h1 class="slogan">Where visuals empower health literacy</h1>
+                <a class="navbar-brand" href="index.php">
+                    <img src="lib/images/logo.png" width="75" height="39" alt="">
+                </a>
+                <h1 class="slogan">Where visuals empower health literacy</h1>
             </div>
 
             <div class="col col-md-9">
