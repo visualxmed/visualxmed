@@ -85,7 +85,7 @@
             </a>
             </div>
             <nav> 
-            <div class="column">
+            <div class="column-6">
             </div>
 
             <div class="column" id="right">
