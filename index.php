@@ -90,7 +90,7 @@
             </div>
 
             <div class="col col-md-9">
-                        <a href="index.php"><div class="active btn navbutton" role="button">Home</div></a>
+                        <a href="index.php"><div class="btn navbutton active" role="button">Home</div></a>
                         <a href="about.html"><div class="btn navbutton" role="button">About Us</div></a>
                         <a href="mission.html"><div class="btn navbutton" role="button">Mission</div></a>
                         <a href="#"><div class="btn navbutton" role="button">Opportunities</div></a>
