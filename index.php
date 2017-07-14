@@ -86,14 +86,15 @@
     </div>
     
     <nav class="navbar navbar-toggleable-md">
-        
-        <div class="navbar-header">
              <button type="button" class="navbar-toggler navbar-toggle collapsed" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                 <span class="sr-only navbar-toggler-icon"></span>
+                 <span class="navbar-toggler-icon"></span>
             </button>
-        </div>
-        
-        <div id="navbarNav" class="collapse navbar-collapse">
+            
+            <a class="navbar-brand" href="index.php">
+                <img src="lib/images/logo.png" width="75" height="39" alt="">
+            </a>
+            
+            <div id="navbarNav" class="collapse navbar-collapse">
             <ul class="navbar-nav">
               <li class="nav-item">
                 <a class="nav-link navbutton index" href="index.php">Home<span class="sr-only"></span></a>
