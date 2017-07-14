@@ -77,17 +77,12 @@
     <!-- <nav class="navbar navbar-light fixed-top"> -->
     <header>
     <!-- <nav> -->
-<div class="navbar-wrapper">
-    <div class="container">
-        <a class="navbar-brand" href="index.php">
-            <img src="lib/images/logo.png" width="75" height="39" alt="">
-        </a>
-        <h1 class="inline-block slogan">Where visuals empower health literacy</h1>
-    </div>
-    
+<div class="navbar-wrapper">    
     <nav class="navbar navbar-toggleable-md">
              <button type="button" class="navbar-toggler navbar-toggle collapsed" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                 <span class="navbar-toggler-icon"></span>
+                <span class="navbar-toggler-icon"></span>
+                <h1 class="inline-block slogan">Where visuals empower health literacy</h1>
+
             </button>
             
             <a class="navbar-brand" href="index.php">
