@@ -78,7 +78,7 @@
     <header>
     <!-- <nav> -->
 <div class="navbar-wrapper">    
-    <nav class="navbar navbar-toggleable-md">
+    <nav class="navbar navbar-toggleable-md navbar-default">
              <button type="button" class="navbar-toggler navbar-toggle collapsed" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
                 <h1 class="inline-block slogan">Where visuals empower health literacy</h1>
