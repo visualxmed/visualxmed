@@ -13,7 +13,6 @@
 
    <!-- <link rel="stylesheet" href="lib/tachyons/css/tachyons.css"> -->
     <link rel="stylesheet" href="lib/css/indexstyle.css">
-    <link rel="stylesheet" href="lib/css/globalstyle.css">
     <link rel="stylesheet" href="lib/css/search.css">
     <link href='http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Oswald:400,300' rel='stylesheet' type='text/css'>
@@ -79,7 +78,7 @@
     <!-- <nav> -->
 <div class="navbar-wrapper">    
     <nav class="navbar navbar-toggleable-md">
-             <button type="button" class="navbar-toggler navbar-toggler-right" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+             <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarNav">
                 <span class="navbar-toggler-icon">pls</span>
             </button>
             
@@ -88,7 +87,7 @@
                 <h1 class="inline-block slogan">Where visuals empower health literacy</h1>
             </a>
             
-            <div id="navbarNav" class="collapse navbar-collapse">
+            <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
               <li class="nav-item">
                 <a class="nav-link navbutton index" href="index.php">Home<span class="sr-only"></span></a>
