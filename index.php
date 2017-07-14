@@ -8,7 +8,6 @@
    <!-- Load CSS -->
     <link rel="stylesheet" href="lib/css/globalstyle.css">
     <link href="lib/style.css" rel="stylesheet">
-    <link href="lib/basscss/basscss.min.css" rel="stylesheet">
     <link href="lib/bootstrap4/css/bootstrap.min.css" rel="stylesheet">
 
    <!-- <link rel="stylesheet" href="lib/tachyons/css/tachyons.css"> -->
@@ -37,9 +36,6 @@
    <meta name="msapplication-TileImage" content="icons/ms-icon-144x144.png">
    <meta name="theme-color" content="#ffffff"> -->
    <!-- Load JS -->
-   <script src="lib/js/modernizr.custom.js"></script>
-   <script src="lib/js/search.js"></script>
-   <script src="lib/js/classie.js"></script>
    <script>
    $(document).ready(function(){
       function getresult(url) {
