@@ -77,6 +77,7 @@
     <!-- <nav class="navbar navbar-light fixed-top"> -->
     <header>
     <!-- <nav> -->
+<div class="navbar-wrapper">
     <div class="container top-bar">
         <div class="row">
             <div class="col col-md-3">
@@ -86,14 +87,13 @@
                 </a>
                 <h1 class="inline-block slogan">Where visuals empower health literacy</h1>
             </div>
-
             <nav class="navbar navbar-toggleable-md">
                 <div class="navbar-header">
                   <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                      <span class="navbar-toggler-icon"></span>
                  </button>
                 </div>
-                <div class="collapse navbar-collapse" id="navbarNav">
+                <div id="navbarNav" class="collapse navbar-collapse">
                   <ul class="navbar-nav">
                       <li class="nav-item">
                         <a class="nav-link navbutton index" href="index.php">Home<span class="sr-only"></span></a>
@@ -118,6 +118,7 @@
         <!-- </div> -->
     </div>
     </nav>
+</div>
     </header>
     
 <!--</header>-->
