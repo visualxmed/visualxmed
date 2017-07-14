@@ -78,48 +78,44 @@
     <header>
     <!-- <nav> -->
 <div class="navbar-wrapper">
-    <div class="container top-bar">
-        <div class="row">
-            <div class="col col-md-3">
-        <!-- <div class="d-flex > -->
-                <a class="navbar-brand" href="index.php">
-                    <img src="lib/images/logo.png" width="75" height="39" alt="">
-                </a>
-                <h1 class="inline-block slogan">Where visuals empower health literacy</h1>
-            </div>
-            <nav class="navbar navbar-toggleable-md">
-                <div class="navbar-header">
-                  <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                     <span class="navbar-toggler-icon"></span>
-                 </button>
-                </div>
-                <div id="navbarNav" class="collapse navbar-collapse">
-                  <ul class="navbar-nav">
-                      <li class="nav-item">
-                        <a class="nav-link navbutton index" href="index.php">Home<span class="sr-only"></span></a>
-                      </li>
-                      <li class="nav-item">  
-                          <a class ="nav-link navbutton" href="about.html">About Us</a>
-                     </li>
-                     <li class="nav-item">                        
-                        <a class="nav-link navbutton" href="mission.html">Mission</a>
-                      </li> 
-                      <li class="nav-item">                        
-                        <a class="nav-link navbutton" href="#">Opportunities</a>
-                      </li>
-                      <li class="nav-item">                        
-                        <a class="nav-link navbutton" href="contact.html">Contact Us</a>
-                      </li>
-                    </ul>
-                </div>
-            </nav>
-            </div> 
-        </div>
-        <!-- </div> -->
+    <div class="container">
+        <a class="navbar-brand" href="index.php">
+            <img src="lib/images/logo.png" width="75" height="39" alt="">
+        </a>
+        <h1 class="inline-block slogan">Where visuals empower health literacy</h1>
     </div>
+    
+    <nav class="navbar navbar-toggleable-md">
+        
+        <div class="navbar-header">
+             <button type="button" class="navbar-toggler navbar-toggle collapsed" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                 <span class="sr-only navbar-toggler-icon"></span>
+            </button>
+        </div>
+        
+        <div id="navbarNav" class="collapse navbar-collapse">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link navbutton index" href="index.php">Home<span class="sr-only"></span></a>
+              </li>
+            <li class="nav-item">  
+                <a class ="nav-link navbutton" href="about.html">About Us</a>
+             </li>
+                  <li class="nav-item">                        
+                    <a class="nav-link navbutton" href="mission.html">Mission</a>
+                  </li> 
+                  <li class="nav-item">                        
+                    <a class="nav-link navbutton" href="#">Opportunities</a>
+                      </li>
+                     <li class="nav-item">                        
+                     <a class="nav-link navbutton" href="contact.html">Contact Us</a>
+                  </li>
+            </ul>
+        </div>
+    
     </nav>
-</div>
-    </header>
+</div> 
+</header>
     
 <!--</header>-->
 <!--
