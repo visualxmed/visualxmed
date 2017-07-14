@@ -3990,6 +3990,8 @@ tbody.collapse.show {
   background: no-repeat center center;
   -webkit-background-size: 100% 100%;
           background-size: 100% 100%;
+  border:1px solid #444;
+
 }
 
 .navbar-toggler-left {
