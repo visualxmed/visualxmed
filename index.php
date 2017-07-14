@@ -80,7 +80,7 @@
 <div class="navbar-wrapper">    
     <nav class="navbar navbar-toggleable-md">
              <button type="button" class="navbar-toggler navbar-toggler-right" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+                <span class="navbar-toggler-icon">pls</span>
             </button>
             
             <a class="navbar-brand" href="index.php">
