@@ -74,8 +74,9 @@
 </head>
 
 <body>
+    <!--<header class="top-screen">-->
     <nav class="navbar navbar-light fixed-top">
-    <div class="container-fluid">
+    <div class="container-fluid bg-primary">
         <div class="d-flex p-2">
             <a class="navbar-brand" href="index.php">
                 <img src="lib/images/logo.png" width="75" height="39" alt="">
@@ -83,17 +84,17 @@
             <nav 
             <div id="right">
             <div class="d-flex navbar-right justify-content-end">
-                        <a href="index.php"><div class="ml-auto p-2 btn btn-primary" role="button">Home</div></a>
-                        <a href="about.html"><div class="ml-auto p-2 btn btn-secondary" id="rbtn" role="button">About Us</div></a>
-                        <a href="mission.html"><div class="ml-auto p-2 btn btn-secondary" id="rbtn" role="button">Mission</div></a>
-                        <a href="#"><div class="ml-auto p-2 btn btn-secondary" id="rbtn" role="button">Opportunities</div></a>
-                        <a href="contact.html"><div class="ml-auto p-2 btn btn-secondary" id="rbtn" role="button">Contact Us</div></a>
+                        <a href="index.php"><div class="btn-primary p-2 btn" id="homebtn" role="button">Home</div></a>
+                        <a href="about.html"><div class="p-2 btn btn-secondary" id="rbtn" role="button">About Us</div></a>
+                        <a href="mission.html"><div class="p-2 btn btn-secondary" id="rbtn" role="button">Mission</div></a>
+                        <a href="#"><div class="p-2 btn btn-secondary" id="rbtn" role="button">Opportunities</div></a>
+                        <a href="contact.html"><div class="p-2 btn btn-secondary" id="rbtn" role="button">Contact Us</div></a>
             </div>
             </div>
         </div>
     </div>
     </nav>
-
+<!--</header>-->
 <!--
 <header class="hide-on-search">
    <div class="container-fluid">
@@ -159,7 +160,7 @@
       </div>
    </div>
 </footer>-->
-    <!--<div class="overlay overlay-contentscale hover-effect">
+    <div class="overlay overlay-contentscale hover-effect">
       <button type="button" class="overlay-close">Close</button>
       <div class="icon"></div>
       <h1 class="title"> Click On Magnifying Glass To Discover </h1>
@@ -167,7 +168,7 @@
          placeholder="Type here to search...">
       <h4 id="results-text"> Showing results for: <b id="search-string"></b> </h4>
       <ul id="results"> </ul>
-   </div>-->
+   </div>
 <script>
    var bodyElem = document.getElementsByTagName("body")[0];
    function hashChanged(storedHash) {

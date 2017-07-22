@@ -6,7 +6,7 @@
  */
 /*! normalize.css v5.0.0 | MIT License | github.com/necolas/normalize.css */
 html {
-  font-family: sans-serif;
+  font-family: helvetica;
   line-height: 1.15;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
@@ -137,7 +137,7 @@ input,
 optgroup,
 select,
 textarea {
-  font-family: sans-serif;
+  font-family: helvetica;
   font-size: 100%;
   line-height: 1.15;
   margin: 0;
@@ -2635,22 +2635,22 @@ select.form-control-lg:not([size]):not([multiple]), .input-group-lg > select.for
 
 .btn {
   display: inline-block;
-  font-weight: normal;
+  font-weight: 700;
   line-height: 1.25;
   text-align: center;
   white-space: nowrap;
   vertical-align: middle;
-  -webkit-user-select: none;
-     -moz-user-select: none;
-      -ms-user-select: none;
-          user-select: none;
-  border: 1px solid transparent;
-  padding: 0.5rem 1rem;
+  padding: 14px 24px;
+  border: 0 none;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  padding: 1rem 1rem;
   font-size: 1rem;
-  border-radius: 0.25rem;
-  -webkit-transition: all 0.2s ease-in-out;
+  border-radius: 0;
+  /*-webkit-transition: all 0.2s ease-in-out;
   -o-transition: all 0.2s ease-in-out;
-  transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;*/
 }
 
 .btn:focus, .btn:hover {
@@ -2658,9 +2658,9 @@ select.form-control-lg:not([size]):not([multiple]), .input-group-lg > select.for
 }
 
 .btn:focus, .btn.focus {
-  outline: 0;
-  -webkit-box-shadow: 0 0 0 2px rgba(2, 117, 216, 0.25);
-          box-shadow: 0 0 0 2px rgba(2, 117, 216, 0.25);
+  outline: 0 none;
+  /*-webkit-box-shadow: 0 0 0 2px rgba(2, 117, 216, 0.25);
+          box-shadow: 0 0 0 2px rgba(2, 117, 216, 0.25);*/
 }
 
 .btn.disabled, .btn:disabled {
@@ -2678,37 +2678,33 @@ fieldset[disabled] a.btn {
 }
 
 .btn-primary {
-  color: #fff;
-  background-color: #0275d8;
-  border-color: #0275d8;
+  color: #99ccff;
+  background-color: #006600;
 }
 
 .btn-primary:hover {
   color: #fff;
   background-color: #025aa5;
-  border-color: #01549b;
 }
 
 .btn-primary:focus, .btn-primary.focus {
-  -webkit-box-shadow: 0 0 0 2px rgba(2, 117, 216, 0.5);
-          box-shadow: 0 0 0 2px rgba(2, 117, 216, 0.5);
+  /*-webkit-box-shadow: 0 0 0 2px rgba(2, 117, 216, 0.5);
+          box-shadow: 0 0 0 2px rgba(2, 117, 216, 0.5);*/
+  background-color: #025aa5;
+
 }
 
 .btn-primary.disabled, .btn-primary:disabled {
   background-color: #0275d8;
-  border-color: #0275d8;
 }
 
 .btn-primary:active, .btn-primary.active,
 .show > .btn-primary.dropdown-toggle {
-  color: #fff;
   background-color: #025aa5;
-  background-image: none;
-  border-color: #01549b;
 }
 
 .btn-secondary {
-  color: #F3F3F3;
+  color: #00cc99;
   background-color: #55ADFF;
   border-color: #ccc;
 }
@@ -6081,11 +6077,11 @@ button.close {
 }
 
 .bg-primary {
-  background-color: #0275d8 !important;
+  background-color: #669999 !important;
 }
 
 a.bg-primary:focus, a.bg-primary:hover {
-  background-color: #025aa5 !important;
+  background-color: #669999 !important;
 }
 
 .bg-success {
