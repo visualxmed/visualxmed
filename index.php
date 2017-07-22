@@ -48,11 +48,6 @@
    </script>
 </head>
 
-<!-- <body> -->
-    <!--<header class="top-screen">-->
-    <!-- <nav class="navbar navbar-light fixed-top"> -->
-    <header>
-    <!-- <nav> -->
 <div class="navbar-wrapper">    
     <nav class="navbar navbar-toggleable-md">
              <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarNav">pls</button>
