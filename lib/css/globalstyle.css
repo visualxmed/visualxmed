@@ -1,3 +1,11 @@
+* {
+  border-radius: 0 !important;
+}
+
+#index {
+  color: #729f98;
+}
+
 .title {
    color: black;
    font-family: Lato;
@@ -24,7 +32,7 @@ body header {
 
 nav {
    font-family: Lato;
-   font-size: 17px;
+   font-size: 100%;
 }
 
 .navbutton {
@@ -48,6 +56,10 @@ nav {
 }
 
 .navbutton:hover {
+  color: #729f98;
+}
+
+.navbutton .index {
   color: #729f98;
 }
 
@@ -89,7 +101,8 @@ nav {
 
 .slogan {
    font-family: Poiret One;
-   font-size: 12px;
+   font-size: 66%;
+   color: black;
 }
 
 @media (max-width: 40em) {
